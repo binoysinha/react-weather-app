@@ -1,0 +1,35 @@
+.container {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.2), 0 4px 20px 0 rgba(0,0,0,0.19);
+    min-height: 600px;
+}
+h1 {
+    text-align: center;
+    color: limegreen !important;
+    text-transform: uppercase;
+}
+.input-group {
+    margin: 20px 0;
+}
+td, th {
+    vertical-align: middle !important;
+    text-align: center !important;
+}
+svg {
+    width: 200px;
+    height: 150px;
+}
+td:first-of-type, td:first-of-type > div {
+    height: 180px;
+    width: 230px;
+}
+td:first-of-type > div {
+    border: 1px solid lightblue;
+}
+.avg-val {
+    margin: 0px;
+}
+.avg-label {
+    font-size: 10px;
+    font-style: italic;
+}
+
